@@ -53,11 +53,26 @@ CF assets; prompts were reconstructed post-hoc and flagged in the manifest).
 - Flow exercised end-to-end: generate → `catalog.py add` (full provenance in
   `assets/scrapcraft/prop-icon/manifest.json`: prompt, model, lane, seed, date,
   verdict, note) → `catalog.py review` → verdicts recorded.
-- **Honest caveat:** no vision model was available in this session (GLM-5.3 is
-  text-only here; GLM-5V-Turbo not on the subscription), so verdicts are
-  **programmatic auto-QC** (PIL: background uniformity, contrast, saturation,
-  valid image) — noted per-entry in the manifest. A human eyeball pass is still
-  welcome before assets ship into a game repo.
+
+### Final pass — dual-signal review (2026-08-23, finisher lane)
+
+The first session had no usable vision model (GLM-5V-Turbo not on the Z.ai
+plan; MMX vision token plan exhausted). The finisher closed that gap with a
+**dual-signal gate**: pixel solidity + local VLM style check.
+
+- **Pixel solidity** (`scripts/qc-solidity.py`, ring sample 3px inside edges):
+  approved set stddev **0.4–3.3** (SOLID); rejected locals **23.6–29.7**
+  (TEXTURED). Clean separation — the background criterion is settled by pixels.
+- **Vision** (local `gemma3:4b` via Ollama, free): all 8 approved assets pass
+  style / silhouette-at-64px / cleanliness. The 2 rejected locals pass style
+  but fail the background criterion.
+- **Calibration note:** small local VLMs (gemma3:4b, llava:7b) over-praise
+  background solidity — they called the two textured backgrounds "flat". So the
+  VLM is authoritative for *style/silhouette*, the pixel metric for
+  *background*; an asset must pass both signals.
+- **Outcome: verdicts unchanged** — 8 approved / 2 rejected, now with
+  per-asset evidence recorded in the manifest `note` fields.
+- Casey's eyeball pass still welcome before assets ship into a game repo.
 
 ## Provenance policy
 

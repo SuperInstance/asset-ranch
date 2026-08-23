@@ -24,6 +24,7 @@ scripts/gen-local.sh    LOCAL wrapper
 scripts/gen-cf.sh       CLOUD-FREE: Workers AI flux-1-schnell
 scripts/gen-deepinfra.sh RESERVED: FLUX-2-max, gated behind --nod
 scripts/catalog.py      manifest + review gate (approve/reject/status)
+scripts/qc-solidity.py  background-solidity QC (clean-cutout metric)
 tests/test_catalog.py   gate logic tests
 assets/<campaign>/<class>/  output + per-class manifest.json
 ```

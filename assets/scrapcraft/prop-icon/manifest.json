@@ -9,7 +9,7 @@
       "seed": null,
       "date": "2026-08-23",
       "verdict": "approved",
-      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+      "note": "prompt reconstructed (prior lane); dual-signal review 2026-08-23: pixel solidity stddev=0.7 (SOLID), gemma3:4b (local ollama) vision OK (style/silhouette/clean)"
     },
     {
       "id": "2f702f82bfe0",
@@ -20,7 +20,7 @@
       "seed": null,
       "date": "2026-08-23",
       "verdict": "approved",
-      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+      "note": "prompt reconstructed (prior lane); dual-signal review 2026-08-23: pixel solidity stddev=1.1 (SOLID), gemma3:4b (local ollama) vision OK (style/silhouette/clean)"
     },
     {
       "id": "93da60030467",
@@ -31,7 +31,7 @@
       "seed": null,
       "date": "2026-08-23",
       "verdict": "approved",
-      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+      "note": "prompt reconstructed (prior lane); dual-signal review 2026-08-23: pixel solidity stddev=0.7 (SOLID), gemma3:4b (local ollama) vision OK (style/silhouette/clean)"
     },
     {
       "id": "d8a8d7d52073",
@@ -42,7 +42,7 @@
       "seed": null,
       "date": "2026-08-23",
       "verdict": "approved",
-      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+      "note": "prompt reconstructed (prior lane); dual-signal review 2026-08-23: pixel solidity stddev=0.5 (SOLID), gemma3:4b (local ollama) vision OK (style/silhouette/clean)"
     },
     {
       "id": "3700ecf3fbef",
@@ -53,7 +53,7 @@
       "seed": null,
       "date": "2026-08-23",
       "verdict": "approved",
-      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+      "note": "dual-signal review 2026-08-23: pixel solidity stddev=0.4 (SOLID), gemma3:4b (local ollama) vision OK (style/silhouette/clean)"
     },
     {
       "id": "4502e7bb0bef",
@@ -64,7 +64,7 @@
       "seed": null,
       "date": "2026-08-23",
       "verdict": "approved",
-      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+      "note": "dual-signal review 2026-08-23: pixel solidity stddev=1.0 (SOLID), gemma3:4b (local ollama) vision OK (style/silhouette/clean)"
     },
     {
       "id": "eefc1a15f811",
@@ -75,7 +75,7 @@
       "seed": 4242,
       "date": "2026-08-23",
       "verdict": "rejected",
-      "note": "auto-QC fail: background not solid (spread>100), fails clean-cutout criterion; SDXL-Turbo ignores solid-bg directive"
+      "note": "rejected: background textured (ring stddev=23.6, spread=94), fails clean-cutout criterion; gemma3:4b (local ollama) vision OK on style but bg fails solidity metric"
     },
     {
       "id": "867a4ac1bf1c",
@@ -86,7 +86,7 @@
       "seed": 5150,
       "date": "2026-08-23",
       "verdict": "rejected",
-      "note": "auto-QC fail: background not solid (spread>100), fails clean-cutout criterion; SDXL-Turbo ignores solid-bg directive"
+      "note": "rejected: background textured (ring stddev=29.7, spread=121), fails clean-cutout criterion; gemma3:4b (local ollama) vision OK on style but bg fails solidity metric"
     },
     {
       "id": "15f768830712",
@@ -97,7 +97,7 @@
       "seed": null,
       "date": "2026-08-23",
       "verdict": "approved",
-      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+      "note": "dual-signal review 2026-08-23: pixel solidity stddev=1.0 (SOLID), gemma3:4b (local ollama) vision OK (style/silhouette/clean)"
     },
     {
       "id": "9d1e614cecdc",
@@ -108,7 +108,7 @@
       "seed": null,
       "date": "2026-08-23",
       "verdict": "approved",
-      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+      "note": "dual-signal review 2026-08-23: pixel solidity stddev=3.3 (SOLID), gemma3:4b (local ollama) vision OK (style/silhouette/clean)"
     }
   ]
 }
