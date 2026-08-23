@@ -1,0 +1,114 @@
+{
+  "assets": [
+    {
+      "id": "553c33331a52",
+      "file": "engine-block.png",
+      "prompt": "a scrapyard engine block, bright orange block with teal accents and cartoon bolts, painted metal, chunky beveled-block low-poly 3D render, toylike proportions, saturated punchy colors, flat lighting, clean silhouette, isometric 3/4 view, solid flat background, game asset",
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "lane": "cloud-free",
+      "seed": null,
+      "date": "2026-08-23",
+      "verdict": "approved",
+      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+    },
+    {
+      "id": "2f702f82bfe0",
+      "file": "gear-cluster.png",
+      "prompt": "a cluster of three interlocking chunky gears, bright teal, orange and yellow, oversized toy teeth, smooth plastic material, chunky beveled-block low-poly 3D render, flat lighting, clean silhouette, isometric 3/4 view, solid flat background",
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "lane": "cloud-free",
+      "seed": null,
+      "date": "2026-08-23",
+      "verdict": "approved",
+      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+    },
+    {
+      "id": "93da60030467",
+      "file": "crane-hook.png",
+      "prompt": "a big chunky scrapyard crane hook in bright yellow with a red safety latch, thick chain links above, painted metal, chunky beveled-block low-poly 3D render, toylike proportions, flat lighting, clean silhouette, isometric 3/4 view, solid flat background",
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "lane": "cloud-free",
+      "seed": null,
+      "date": "2026-08-23",
+      "verdict": "approved",
+      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+    },
+    {
+      "id": "d8a8d7d52073",
+      "file": "cat-sticker.png",
+      "prompt": "a chunky cartoon black cat silhouette sitting upright, simple bold shape with rounded ears and a curled tail, flat sticker style, saturated colors, clean silhouette, solid flat background, game asset sticker",
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "lane": "cloud-free",
+      "seed": null,
+      "date": "2026-08-23",
+      "verdict": "approved",
+      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+    },
+    {
+      "id": "3700ecf3fbef",
+      "file": "scrap-crate.png",
+      "prompt": "a chunky scrapyard loot crate made of bright yellow metal plates with teal corner brackets and a big cartoon padlock, oversized rivets, painted metal, chunky beveled-block low-poly 3D render, flat lighting, clean silhouette, isometric 3/4 view, solid flat background",
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "lane": "cloud-free",
+      "seed": null,
+      "date": "2026-08-23",
+      "verdict": "approved",
+      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+    },
+    {
+      "id": "4502e7bb0bef",
+      "file": "oil-drum.png",
+      "prompt": "a chunky toy oil drum barrel in glossy candy-red with two lime-green rings and a cartoon cap, slightly dented in a cute way, painted metal, chunky beveled-block low-poly 3D render, flat lighting, clean silhouette, isometric 3/4 view, solid flat background",
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "lane": "cloud-free",
+      "seed": null,
+      "date": "2026-08-23",
+      "verdict": "approved",
+      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+    },
+    {
+      "id": "eefc1a15f811",
+      "file": "wheel-stack.local.png",
+      "prompt": "a stack of three chunky scrapyard wheels with thick off-road tires, top tire bright red with yellow hub, middle teal, bottom yellow with red hub, exaggerated thick treads, smooth plastic material, chunky beveled-block low-poly 3D render, toylike proportions, saturated punchy colors, flat lighting, clean silhouette, isometric 3/4 view, solid flat background, game asset",
+      "model": "sdxl-turbo",
+      "lane": "local",
+      "seed": 4242,
+      "date": "2026-08-23",
+      "verdict": "rejected",
+      "note": "auto-QC fail: background not solid (spread>100), fails clean-cutout criterion; SDXL-Turbo ignores solid-bg directive"
+    },
+    {
+      "id": "867a4ac1bf1c",
+      "file": "toolbox.png",
+      "prompt": "a chunky toy red toolbox with open lid showing simple tool shapes inside, bright yellow handle and latches, cartoon oversized bolts, painted metal and smooth plastic, chunky beveled-block low-poly 3D render, toylike proportions, saturated punchy colors, flat lighting, clean silhouette, isometric 3/4 view, solid flat background, game asset",
+      "model": "sdxl-turbo",
+      "lane": "local",
+      "seed": 5150,
+      "date": "2026-08-23",
+      "verdict": "rejected",
+      "note": "auto-QC fail: background not solid (spread>100), fails clean-cutout criterion; SDXL-Turbo ignores solid-bg directive"
+    },
+    {
+      "id": "15f768830712",
+      "file": "wheel-stack.png",
+      "prompt": "a stack of three chunky scrapyard wheels with thick off-road tires, top tire bright red with yellow hub, middle teal, bottom yellow with red hub, exaggerated thick treads, smooth plastic material, chunky beveled-block low-poly 3D render, flat lighting, clean silhouette, isometric 3/4 view, solid flat background",
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "lane": "cloud-free",
+      "seed": null,
+      "date": "2026-08-23",
+      "verdict": "approved",
+      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+    },
+    {
+      "id": "9d1e614cecdc",
+      "file": "toolbox-cf.png",
+      "prompt": "a chunky toy red toolbox with open lid showing simple tool shapes inside, bright yellow handle and latches, cartoon oversized bolts, painted metal and smooth plastic, chunky beveled-block low-poly 3D render, flat lighting, clean silhouette, isometric 3/4 view, solid flat background",
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "lane": "cloud-free",
+      "seed": null,
+      "date": "2026-08-23",
+      "verdict": "approved",
+      "note": "auto-QC pass: solid bg, good contrast; vision-model review unavailable this session, Casey eyeball welcome"
+    }
+  ]
+}
