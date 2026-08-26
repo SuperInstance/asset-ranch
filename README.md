@@ -1,5 +1,7 @@
 # Asset Ranch — Roblox-Style Asset Generation Pipeline
 
+![hero](assets/images/hero.jpg)
+
 Local + cloud image generation tuned for the **Roblox look**: chunky, blocky,
 saturated, flat-lit, toylike. Generated assets flow through a **catalog +
 review gate** before ever entering a game repo (e.g. Scrapcraft, vibe-world).
